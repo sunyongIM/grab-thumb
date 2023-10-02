@@ -76943,7 +76943,7 @@ case 2:s=4
 return A.a1(p.z9(),$async$pb)
 case 4:n=q.a.c
 n.toString
-n=p.c.agv(0,"http://127.0.0.1:4325/register/"+n,null,null,null,A.ang("GET",null),null,t.z)
+n=p.c.agv(0,"http://13.124.33.80:4325/register/"+n,null,null,null,A.ang("GET",null),null,t.z)
 q.f=n
 s=5
 return A.a1(n.bF(new A.aev(q),t.P).m4(new A.aew(q)),$async$pb)
@@ -77133,7 +77133,7 @@ j.toString
 i=t.N
 h=t.z
 s=2
-return A.a1(k.c.yp(0,"http://127.0.0.1:4325/register/"+j,null,B.bf.DX(A.aH(["nickname",m,"phoneNum",p+o+n,"numOfPeople",l],i,h),null),null,null,A.ang("POST",A.aoN(A.aH(["Content-Type","application/json"],i,h))),null,h).bF(new A.aed(g),t.P),$async$$0)
+return A.a1(k.c.yp(0,"http://13.124.33.80:4325/register/"+j,null,B.bf.DX(A.aH(["nickname",m,"phoneNum",p+o+n,"numOfPeople",l],i,h),null),null,null,A.ang("POST",A.aoN(A.aH(["Content-Type","application/json"],i,h))),null,h).bF(new A.aed(g),t.P),$async$$0)
 case 2:return A.V(null,r)}})
 return A.W($async$$0,r)},
 $S:27}
