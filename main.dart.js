@@ -80916,7 +80916,7 @@ $S:487}
 A.IM.prototype={
 K(a){var s,r,q,p=null,o=A.Aj().k(0)
 A.Aj().gGN().h(0,"customerIdx")
-s=A.Aj().gGN().h(0,"client_id")
+s=A.Aj().gGN().h(0,"clientId")
 r=A.b2("result")
 if(B.c.t(o,"my-order"))r.b=new A.xy(p)
 else if(B.c.t(o,"cancel"))r.b=new A.vd(p)
@@ -80963,7 +80963,7 @@ case 2:s=4
 return A.X(p.Ad(),$async$q4)
 case 4:l=q.a.c
 l.toString
-l=p.c.ajV(0,"https://grab-thumb.com/register/"+l,null,null,null,A.aps("GET",null),null,t.z)
+l=p.c.ajV(0,"https://grab-thumb.com/customer/"+l,null,null,null,A.aps("GET",null),null,t.z)
 q.f=l
 s=5
 return A.X(l.bj(new A.age(q),t.P).iC(new A.agf(q)),$async$q4)
@@ -81005,7 +81005,7 @@ else if(o.Q)return B.JW
 else{s=o.w
 s===$&&A.a()
 r=t.F
-s=A.oR(A.b([A.fi(s.a+" - \uc5ec\uae30\ubd80\ud130 QR \uc6e8\uc774\ud305",n,n,n,B.Nu,n,n)],r),B.fo,B.ab)
+s=A.oR(A.b([A.fi(s.a+" - \uc5ec\uae30\ubd80\ud130 \ubaa8\ubc14\uc77c \ud0a4\uc624\uc2a4\ud06c",n,n,n,B.Nu,n,n)],r),B.fo,B.ab)
 q=A.h5(20)
 q=A.ey(n,A.iM(A.b([B.Qg,A.fi(""+o.w.e+" \ud300",n,n,n,B.P_,n,n)],r),B.b_,B.fo,B.ab),B.t,n,n,new A.cT(B.j,n,n,q,n,n,B.ai),52,n,n,140)
 p=A.h5(20)
@@ -81101,7 +81101,7 @@ j.toString
 i=t.N
 h=t.z
 s=10
-return A.X(k.c.zl(0,"https://grab-thumb.com/register/"+j,null,B.bi.Fm(A.aM(["nickname",p,"phoneNum",o+n+m,"numOfPeople",l],i,h),null),null,null,A.aps("POST",A.ard(A.aM(["Content-Type","application/json"],i,h))),null,h).bj(new A.ag9(g),t.P),$async$$0)
+return A.X(k.c.zl(0,"https://grab-thumb.com/customer/"+j,null,B.bi.Fm(A.aM(["nickname",p,"phoneNum",o+n+m,"numOfPeople",l],i,h),null),null,null,A.aps("POST",A.ard(A.aM(["Content-Type","application/json"],i,h))),null,h).bj(new A.ag9(g),t.P),$async$$0)
 case 10:case 7:case 3:return A.N(null,r)}})
 return A.O($async$$0,r)},
 $S:21}
